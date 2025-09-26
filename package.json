@@ -1,0 +1,22 @@
+{
+  "name": "dev-tinder-backend",
+  "version": "1.0.0",
+  "description": "tinder for developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "git",
+    "microservice"
+  ],
+  "author": "Prem Mourya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
